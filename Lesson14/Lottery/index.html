@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8">
+    <title>Lottery</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+    <style type="text/css">
+      body {
+        padding: 20px;
+      }
+      #entrants {
+        background: #CCC;
+        padding: 2px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1> Hamilton lottery </h1>
+    <p> This simulates a 10 pair tickets for <span id = 'entrants' contenteditable = true>50000</span> entries.</p>
+    <p> You have 1 in <span id = 'chance'>5000</span> chance of winning. </p>
+    <p> To have a 99% chance of winning you need to play at leaste ~<span id = '99percent'>23,000</span> </p>
+    <button id = 'start'>Entry lottery </button>
+    <p> You have played <span id = 'total'> 0</span> times </p>
+    <p id = 'result'></p>
+
+    </body>
+</html>
